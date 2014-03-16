@@ -1,5 +1,6 @@
 #include "AppDelegate.h"
-#include "HelloWorldScene.h"
+//#include "HelloWorldScene.h"
+#include "SceneMain.h"
 
 USING_NS_CC;
 
@@ -18,14 +19,30 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     director->setOpenGLView(eglView);
 	
+    auto screenSize = EGLView::getInstance()->getFrameSize();
+    auto designSize = Size(480, 320);
+    std::vector<std::string> searchPaths;
+    
+    if (screenSize.height > 320)
+    {
+        director->setContentScaleFactor(640.0f/designSize.height);
+    }
+    else
+    {
+        director->setContentScaleFactor(320.0f/designSize.height);
+    }
+    
+    FileUtils::getInstance()->setSearchPaths(searchPaths);
+    
+    EGLView::getInstance()->setDesignResolutionSize(designSize.width, designSize.height, ResolutionPolicy::NO_BORDER);
+    
     // turn on display FPS
     director->setDisplayStats(true);
 
     // set FPS. the default value is 1.0/60 if you don't call this
     director->setAnimationInterval(1.0 / 60);
 
-    // create a scene. it's an autorelease object
-    auto scene = HelloWorld::createScene();
+    auto scene = SceneMain::createScene();
 
     // run
     director->runWithScene(scene);
