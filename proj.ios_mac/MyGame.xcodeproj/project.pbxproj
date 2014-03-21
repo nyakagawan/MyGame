@@ -24,6 +24,23 @@
 		1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2564AF5218D56AFB00B0BB32 /* dekakabocha.png in Resources */ = {isa = PBXBuildFile; fileRef = 2564AF4218D56AFB00B0BB32 /* dekakabocha.png */; };
+		2564AF5318D56AFB00B0BB32 /* dekakabocha_kage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2564AF4318D56AFB00B0BB32 /* dekakabocha_kage.png */; };
+		2564AF5418D56AFB00B0BB32 /* hone.png in Resources */ = {isa = PBXBuildFile; fileRef = 2564AF4418D56AFB00B0BB32 /* hone.png */; };
+		2564AF5518D56AFB00B0BB32 /* kabocha.png in Resources */ = {isa = PBXBuildFile; fileRef = 2564AF4518D56AFB00B0BB32 /* kabocha.png */; };
+		2564AF5618D56AFB00B0BB32 /* kabocha_kage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2564AF4618D56AFB00B0BB32 /* kabocha_kage.png */; };
+		2564AF5718D56AFB00B0BB32 /* koumori.png in Resources */ = {isa = PBXBuildFile; fileRef = 2564AF4718D56AFB00B0BB32 /* koumori.png */; };
+		2564AF5818D56AFB00B0BB32 /* koumori_kage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2564AF4818D56AFB00B0BB32 /* koumori_kage.png */; };
+		2564AF5918D56AFB00B0BB32 /* majo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2564AF4918D56AFB00B0BB32 /* majo.png */; };
+		2564AF5A18D56AFB00B0BB32 /* majo_kage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2564AF4A18D56AFB00B0BB32 /* majo_kage.png */; };
+		2564AF5B18D56AFB00B0BB32 /* obake.png in Resources */ = {isa = PBXBuildFile; fileRef = 2564AF4B18D56AFB00B0BB32 /* obake.png */; };
+		2564AF5C18D56AFB00B0BB32 /* obake_kage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2564AF4C18D56AFB00B0BB32 /* obake_kage.png */; };
+		2564AF5D18D56AFB00B0BB32 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2564AF4D18D56AFB00B0BB32 /* readme.txt */; };
+		2564AF5E18D56AFB00B0BB32 /* balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2564AF4F18D56AFB00B0BB32 /* balloon.png */; };
+		2564AF5F18D56AFB00B0BB32 /* bomb.png in Resources */ = {isa = PBXBuildFile; fileRef = 2564AF5018D56AFB00B0BB32 /* bomb.png */; };
+		2564AF6018D56AFB00B0BB32 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2564AF5118D56AFB00B0BB32 /* readme.txt */; };
+		259C735118D55DB3000E0D3E /* LayerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 259C734D18D55DB3000E0D3E /* LayerMain.cpp */; };
+		259C735218D55DB3000E0D3E /* SceneMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 259C734F18D55DB3000E0D3E /* SceneMain.cpp */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
@@ -255,6 +272,27 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* MyGame iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyGame iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2564AF4218D56AFB00B0BB32 /* dekakabocha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dekakabocha.png; sourceTree = "<group>"; };
+		2564AF4318D56AFB00B0BB32 /* dekakabocha_kage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dekakabocha_kage.png; sourceTree = "<group>"; };
+		2564AF4418D56AFB00B0BB32 /* hone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hone.png; sourceTree = "<group>"; };
+		2564AF4518D56AFB00B0BB32 /* kabocha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kabocha.png; sourceTree = "<group>"; };
+		2564AF4618D56AFB00B0BB32 /* kabocha_kage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kabocha_kage.png; sourceTree = "<group>"; };
+		2564AF4718D56AFB00B0BB32 /* koumori.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = koumori.png; sourceTree = "<group>"; };
+		2564AF4818D56AFB00B0BB32 /* koumori_kage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = koumori_kage.png; sourceTree = "<group>"; };
+		2564AF4918D56AFB00B0BB32 /* majo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = majo.png; sourceTree = "<group>"; };
+		2564AF4A18D56AFB00B0BB32 /* majo_kage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = majo_kage.png; sourceTree = "<group>"; };
+		2564AF4B18D56AFB00B0BB32 /* obake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obake.png; sourceTree = "<group>"; };
+		2564AF4C18D56AFB00B0BB32 /* obake_kage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obake_kage.png; sourceTree = "<group>"; };
+		2564AF4D18D56AFB00B0BB32 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		2564AF4F18D56AFB00B0BB32 /* balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon.png; sourceTree = "<group>"; };
+		2564AF5018D56AFB00B0BB32 /* bomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bomb.png; sourceTree = "<group>"; };
+		2564AF5118D56AFB00B0BB32 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		259C734618D55808000E0D3E /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		259C734D18D55DB3000E0D3E /* LayerMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayerMain.cpp; path = ../Classes/LayerMain.cpp; sourceTree = "<group>"; };
+		259C734E18D55DB3000E0D3E /* LayerMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LayerMain.h; path = ../Classes/LayerMain.h; sourceTree = "<group>"; };
+		259C734F18D55DB3000E0D3E /* SceneMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SceneMain.cpp; path = ../Classes/SceneMain.cpp; sourceTree = "<group>"; };
+		259C735018D55DB3000E0D3E /* SceneMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneMain.h; path = ../Classes/SceneMain.h; sourceTree = "<group>"; };
+		25A3FF3E18D562460010F781 /* AppStd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppStd.h; path = ../Classes/AppStd.h; sourceTree = "<group>"; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -364,10 +402,16 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				25A3FF3E18D562460010F781 /* AppStd.h */,
+				259C734D18D55DB3000E0D3E /* LayerMain.cpp */,
+				259C734E18D55DB3000E0D3E /* LayerMain.h */,
+				259C734F18D55DB3000E0D3E /* SceneMain.cpp */,
+				259C735018D55DB3000E0D3E /* SceneMain.h */,
 				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
 				1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */,
 				1AFAF8B616D35DE700DB1158 /* HelloWorldScene.h */,
+				259C734618D55808000E0D3E /* Define.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -401,6 +445,44 @@
 				1AC6FB13180E9839004C840B /* libluabindings iOS.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2564AF4018D56AFB00B0BB32 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2564AF4118D56AFB00B0BB32 /* chara */,
+				2564AF4E18D56AFB00B0BB32 /* effect */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		2564AF4118D56AFB00B0BB32 /* chara */ = {
+			isa = PBXGroup;
+			children = (
+				2564AF4218D56AFB00B0BB32 /* dekakabocha.png */,
+				2564AF4318D56AFB00B0BB32 /* dekakabocha_kage.png */,
+				2564AF4418D56AFB00B0BB32 /* hone.png */,
+				2564AF4518D56AFB00B0BB32 /* kabocha.png */,
+				2564AF4618D56AFB00B0BB32 /* kabocha_kage.png */,
+				2564AF4718D56AFB00B0BB32 /* koumori.png */,
+				2564AF4818D56AFB00B0BB32 /* koumori_kage.png */,
+				2564AF4918D56AFB00B0BB32 /* majo.png */,
+				2564AF4A18D56AFB00B0BB32 /* majo_kage.png */,
+				2564AF4B18D56AFB00B0BB32 /* obake.png */,
+				2564AF4C18D56AFB00B0BB32 /* obake_kage.png */,
+				2564AF4D18D56AFB00B0BB32 /* readme.txt */,
+			);
+			path = chara;
+			sourceTree = "<group>";
+		};
+		2564AF4E18D56AFB00B0BB32 /* effect */ = {
+			isa = PBXGroup;
+			children = (
+				2564AF4F18D56AFB00B0BB32 /* balloon.png */,
+				2564AF5018D56AFB00B0BB32 /* bomb.png */,
+				2564AF5118D56AFB00B0BB32 /* readme.txt */,
+			);
+			path = effect;
 			sourceTree = "<group>";
 		};
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
@@ -487,6 +569,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2564AF4018D56AFB00B0BB32 /* images */,
 				1AFAF8B916D35E4900DB1158 /* CloseNormal.png */,
 				1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */,
 				1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */,
@@ -689,23 +772,38 @@
 			files = (
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
+				2564AF5A18D56AFB00B0BB32 /* majo_kage.png in Resources */,
+				2564AF5918D56AFB00B0BB32 /* majo.png in Resources */,
+				2564AF5C18D56AFB00B0BB32 /* obake_kage.png in Resources */,
+				2564AF5E18D56AFB00B0BB32 /* balloon.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
+				2564AF5D18D56AFB00B0BB32 /* readme.txt in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
+				2564AF5218D56AFB00B0BB32 /* dekakabocha.png in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
+				2564AF6018D56AFB00B0BB32 /* readme.txt in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
+				2564AF5818D56AFB00B0BB32 /* koumori_kage.png in Resources */,
+				2564AF5718D56AFB00B0BB32 /* koumori.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
+				2564AF5618D56AFB00B0BB32 /* kabocha_kage.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
+				2564AF5318D56AFB00B0BB32 /* dekakabocha_kage.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
+				2564AF5518D56AFB00B0BB32 /* kabocha.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
+				2564AF5B18D56AFB00B0BB32 /* obake.png in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
+				2564AF5418D56AFB00B0BB32 /* hone.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
+				2564AF5F18D56AFB00B0BB32 /* bomb.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,9 +825,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				259C735218D55DB3000E0D3E /* SceneMain.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
+				259C735118D55DB3000E0D3E /* LayerMain.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */,
 			);
