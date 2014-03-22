@@ -41,6 +41,8 @@
 		2564AF6018D56AFB00B0BB32 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2564AF5118D56AFB00B0BB32 /* readme.txt */; };
 		259C735118D55DB3000E0D3E /* LayerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 259C734D18D55DB3000E0D3E /* LayerMain.cpp */; };
 		259C735218D55DB3000E0D3E /* SceneMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 259C734F18D55DB3000E0D3E /* SceneMain.cpp */; };
+		25D0333A18DD30C800FE8E81 /* majo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25D0333818DD30C800FE8E81 /* majo.plist */; };
+		25D0333B18DD30C800FE8E81 /* majo.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D0333918DD30C800FE8E81 /* majo.png */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
@@ -293,6 +295,8 @@
 		259C734F18D55DB3000E0D3E /* SceneMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SceneMain.cpp; path = ../Classes/SceneMain.cpp; sourceTree = "<group>"; };
 		259C735018D55DB3000E0D3E /* SceneMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneMain.h; path = ../Classes/SceneMain.h; sourceTree = "<group>"; };
 		25A3FF3E18D562460010F781 /* AppStd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppStd.h; path = ../Classes/AppStd.h; sourceTree = "<group>"; };
+		25D0333818DD30C800FE8E81 /* majo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = majo.plist; sourceTree = "<group>"; };
+		25D0333918DD30C800FE8E81 /* majo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = majo.png; sourceTree = "<group>"; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -569,6 +573,8 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				25D0333818DD30C800FE8E81 /* majo.plist */,
+				25D0333918DD30C800FE8E81 /* majo.png */,
 				2564AF4018D56AFB00B0BB32 /* images */,
 				1AFAF8B916D35E4900DB1158 /* CloseNormal.png */,
 				1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */,
@@ -772,6 +778,7 @@
 			files = (
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
+				25D0333B18DD30C800FE8E81 /* majo.png in Resources */,
 				2564AF5A18D56AFB00B0BB32 /* majo_kage.png in Resources */,
 				2564AF5918D56AFB00B0BB32 /* majo.png in Resources */,
 				2564AF5C18D56AFB00B0BB32 /* obake_kage.png in Resources */,
@@ -781,6 +788,7 @@
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				2564AF5218D56AFB00B0BB32 /* dekakabocha.png in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
+				25D0333A18DD30C800FE8E81 /* majo.plist in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				2564AF6018D56AFB00B0BB32 /* readme.txt in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,

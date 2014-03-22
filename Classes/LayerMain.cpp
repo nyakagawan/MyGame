@@ -9,6 +9,9 @@ LayerMain::LayerMain() {
 }
 
 LayerMain::~LayerMain() {
+    //sampleではonExitでやってたけど。
+    auto cache = SpriteFrameCache::getInstance();
+    cache->removeSpriteFramesFromFile("majo.plist");
 }
 
 bool LayerMain::init() {
@@ -31,6 +34,38 @@ bool LayerMain::init() {
     auto menu = Menu::create(item1, NULL);
     menu->setPosition(Point::ZERO);
     this->addChild(menu, 1);
+    
+//    auto filePath = FileUtils::getInstance()->fullPathForFilename("images/chara/majo.png");
+//    auto pSprite = Sprite::create(filePath);
+//    auto pSprite = Sprite::create("effect/balloon.png");
+    auto pSprite = Sprite::create("majo.png");
+    pSprite->setPosition(Point(100,100));
+    this->addChild(pSprite);
+
+    
+    auto cache = SpriteFrameCache::getInstance();
+    cache->addSpriteFramesWithFile("majo.plist", "majo.png");
+    
+    auto s = Director::getInstance()->getWinSize();
+    auto _sprite1 = Sprite::createWithSpriteFrameName("majo_01.png");
+    _sprite1->setPosition( Point( s.width/2-16, s.height/2) );
+    
+    auto spritebatch = SpriteBatchNode::create("majo.png");
+    spritebatch->addChild(_sprite1);
+    addChild(spritebatch);
+    
+    Vector<SpriteFrame*> animFrames(3);
+    
+    char str[100] = {0};
+    for(int i = 1; i < 3; i++)
+    {
+        sprintf(str, "majo_%02d.png", i);
+        auto frame = cache->getSpriteFrameByName( str );
+        animFrames.pushBack(frame);
+    }
+    
+    auto animation = Animation::createWithSpriteFrames(animFrames, 0.5f);
+    _sprite1->runAction( RepeatForever::create( Animate::create(animation) ) );
     
     return true;
 }
