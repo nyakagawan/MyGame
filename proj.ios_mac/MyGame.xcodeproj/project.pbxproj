@@ -43,6 +43,7 @@
 		259C735218D55DB3000E0D3E /* SceneMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 259C734F18D55DB3000E0D3E /* SceneMain.cpp */; };
 		25D0333A18DD30C800FE8E81 /* majo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25D0333818DD30C800FE8E81 /* majo.plist */; };
 		25D0333B18DD30C800FE8E81 /* majo.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D0333918DD30C800FE8E81 /* majo.png */; };
+		25D0333E18DD7DBC00FE8E81 /* TestUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D0333C18DD7DBC00FE8E81 /* TestUnit.cpp */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
@@ -297,6 +298,8 @@
 		25A3FF3E18D562460010F781 /* AppStd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppStd.h; path = ../Classes/AppStd.h; sourceTree = "<group>"; };
 		25D0333818DD30C800FE8E81 /* majo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = majo.plist; sourceTree = "<group>"; };
 		25D0333918DD30C800FE8E81 /* majo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = majo.png; sourceTree = "<group>"; };
+		25D0333C18DD7DBC00FE8E81 /* TestUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestUnit.cpp; sourceTree = "<group>"; };
+		25D0333D18DD7DBC00FE8E81 /* TestUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUnit.h; sourceTree = "<group>"; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -416,6 +419,8 @@
 				1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */,
 				1AFAF8B616D35DE700DB1158 /* HelloWorldScene.h */,
 				259C734618D55808000E0D3E /* Define.h */,
+				25D0333C18DD7DBC00FE8E81 /* TestUnit.cpp */,
+				25D0333D18DD7DBC00FE8E81 /* TestUnit.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -838,6 +843,7 @@
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				259C735118D55DB3000E0D3E /* LayerMain.cpp in Sources */,
+				25D0333E18DD7DBC00FE8E81 /* TestUnit.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */,
 			);
