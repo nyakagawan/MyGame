@@ -67,6 +67,36 @@ bool LayerMain::init() {
     auto animation = Animation::createWithSpriteFrames(animFrames, 0.5f);
     _sprite1->runAction( RepeatForever::create( Animate::create(animation) ) );
     
+    // create move actions
+    {
+        auto seqActs = Vector<FiniteTimeAction*>();
+        {
+            auto spawnActs = Vector<FiniteTimeAction*>();
+            
+            auto mv = MoveBy::create(2, Point(0, -50));
+            auto es = EaseInOut::create(mv, 10);
+            spawnActs.pushBack( es );
+            
+            mv = MoveBy::create(2, Point(50, 0));
+            es = EaseInOut::create(mv, 10);
+            spawnActs.pushBack( es );
+            
+            auto actSpawn = Spawn::create( spawnActs );
+            seqActs.pushBack(actSpawn);
+        }
+        {
+            auto spawnActs = Vector<FiniteTimeAction*>();
+            spawnActs.pushBack( MoveBy::create(2, Point(0, 50)) );
+            spawnActs.pushBack( MoveBy::create(2, Point(-50, 0)) );
+            auto actSpawn = Spawn::create( spawnActs );
+            seqActs.pushBack(actSpawn);
+        }
+        
+        auto actSeq = Sequence::create(seqActs);
+        
+        _sprite1->runAction(RepeatForever::create(actSeq));
+    }
+    
     return true;
 }
 
