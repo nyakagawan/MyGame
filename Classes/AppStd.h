@@ -12,9 +12,10 @@
 // cocos2dx 系
 #include "cocos2d.h"
 
-
 #include "Define.h"
 
 #define DPRINT(fmt,...) cocos2d::log("[%s:%d] " fmt, __FUNCTION__, __LINE__, ## __VA_ARGS__)
+
+#include "Global.h"
 
 #endif

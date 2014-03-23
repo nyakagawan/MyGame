@@ -115,10 +115,10 @@ void TestUnit::update(float delta) {
     //Debug Display
     {
         char msg[256] = {0};
-//        sprintf(msg, "mvdirX:%f, mvdirY:%f, velX:%f, velY:%f", _moveDirX, _moveDirY, _velocityX, _velocityY);
-//        DPRINT("%s",msg);
-//        sprintf(msg, "posX:%f, posY:%f", pos.x, pos.y);
-//        DPRINT("%s",msg);
+        sprintf(msg, "mvdirX:%f, mvdirY:%f, velX:%f, velY:%f", _moveDirX, _moveDirY, _velocityX, _velocityY);
+        DebugFont::getInstance()->put(0,0, msg);
+        sprintf(msg, "posX:%f, posY:%f", pos.x, pos.y);
+        DebugFont::getInstance()->put(0,1, msg);
     }
 }
 

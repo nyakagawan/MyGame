@@ -41,6 +41,9 @@
 		2564AF6018D56AFB00B0BB32 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2564AF5118D56AFB00B0BB32 /* readme.txt */; };
 		259C735118D55DB3000E0D3E /* LayerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 259C734D18D55DB3000E0D3E /* LayerMain.cpp */; };
 		259C735218D55DB3000E0D3E /* SceneMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 259C734F18D55DB3000E0D3E /* SceneMain.cpp */; };
+		25B2235618DED58A00676725 /* font2.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 25B2235418DED58A00676725 /* font2.fnt */; };
+		25B2235718DED58A00676725 /* font2.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B2235518DED58A00676725 /* font2.png */; };
+		25B2235A18DEE11600676725 /* Global.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25B2235818DEE11600676725 /* Global.cpp */; };
 		25D0333A18DD30C800FE8E81 /* majo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25D0333818DD30C800FE8E81 /* majo.plist */; };
 		25D0333B18DD30C800FE8E81 /* majo.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D0333918DD30C800FE8E81 /* majo.png */; };
 		25D0333E18DD7DBC00FE8E81 /* TestUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D0333C18DD7DBC00FE8E81 /* TestUnit.cpp */; };
@@ -296,6 +299,10 @@
 		259C734F18D55DB3000E0D3E /* SceneMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SceneMain.cpp; path = ../Classes/SceneMain.cpp; sourceTree = "<group>"; };
 		259C735018D55DB3000E0D3E /* SceneMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneMain.h; path = ../Classes/SceneMain.h; sourceTree = "<group>"; };
 		25A3FF3E18D562460010F781 /* AppStd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppStd.h; path = ../Classes/AppStd.h; sourceTree = "<group>"; };
+		25B2235418DED58A00676725 /* font2.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = font2.fnt; sourceTree = "<group>"; };
+		25B2235518DED58A00676725 /* font2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font2.png; sourceTree = "<group>"; };
+		25B2235818DEE11600676725 /* Global.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Global.cpp; path = ../Classes/Global.cpp; sourceTree = "<group>"; };
+		25B2235918DEE11600676725 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Global.h; path = ../Classes/Global.h; sourceTree = "<group>"; };
 		25D0333818DD30C800FE8E81 /* majo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = majo.plist; sourceTree = "<group>"; };
 		25D0333918DD30C800FE8E81 /* majo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = majo.png; sourceTree = "<group>"; };
 		25D0333C18DD7DBC00FE8E81 /* TestUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestUnit.cpp; sourceTree = "<group>"; };
@@ -409,6 +416,8 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				25B2235818DEE11600676725 /* Global.cpp */,
+				25B2235918DEE11600676725 /* Global.h */,
 				25A3FF3E18D562460010F781 /* AppStd.h */,
 				259C734D18D55DB3000E0D3E /* LayerMain.cpp */,
 				259C734E18D55DB3000E0D3E /* LayerMain.h */,
@@ -578,6 +587,8 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				25B2235418DED58A00676725 /* font2.fnt */,
+				25B2235518DED58A00676725 /* font2.png */,
 				25D0333818DD30C800FE8E81 /* majo.plist */,
 				25D0333918DD30C800FE8E81 /* majo.png */,
 				2564AF4018D56AFB00B0BB32 /* images */,
@@ -781,6 +792,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B2235618DED58A00676725 /* font2.fnt in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				25D0333B18DD30C800FE8E81 /* majo.png in Resources */,
@@ -793,6 +805,7 @@
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				2564AF5218D56AFB00B0BB32 /* dekakabocha.png in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
+				25B2235718DED58A00676725 /* font2.png in Resources */,
 				25D0333A18DD30C800FE8E81 /* majo.plist in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				2564AF6018D56AFB00B0BB32 /* readme.txt in Resources */,
@@ -841,6 +854,7 @@
 				259C735218D55DB3000E0D3E /* SceneMain.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				25B2235A18DEE11600676725 /* Global.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				259C735118D55DB3000E0D3E /* LayerMain.cpp in Sources */,
 				25D0333E18DD7DBC00FE8E81 /* TestUnit.cpp in Sources */,
